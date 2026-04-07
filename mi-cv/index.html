@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hoja de vida — Estudiante de Ingeniería de Software</title>
+
+  <!-- Fuente (puedes cambiarla) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Enlaza tu CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- Barra de herramientas flotante -->
+  <div class="cv-toolbar">
+    <button id="btn-dark" title="Modo oscuro">🌙 Modo oscuro</button>
+    <button id="btn-print" title="Imprimir">🖨️ Imprimir</button>
+  </div>
+
+  <main class="cv">
+    <!-- En el header, añade id al enlace del email --> 
+    <a href="mailto:jaesquivel@ucundinamarca.edu.co" id="email-link">
+      jaesquivel@ucundinamarca.edu.co
+    </a>
+
+    <!-- En la sección de educación, añade un id para el contador -->
+    <p class="date">En curso · <span id="tiempo-cursando"></span></p>
+  <main class="cv">
+    <!-- Header grande azul -->
+    <header class="cv-header">
+      <div class="cv-header-left">
+        <h1 class="name">Jused Alejandro Esquivel Martínez</h1>
+        <p class="job-title">Estudiante de Ingeniería de Software</p>
+        <div class="contacts">
+          <a href="mailto:jaesquivel@ucundinamarca.edu.co">jaesquivel@ucundinamarca.edu.co</a> · <a href="tel:+573209297221">(+57) 320 9297 221</a>
+          <div class="links">
+            <a href="#">linkedin.com/in/tu-nombre</a> · <a href="#">www.tusitio.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="cv-header-right">
+        <img src="images/Goku.jpg" alt="Foto de perfil" class="profile-photo">
+      </div>
+    </header>
+
+    <!-- Contenido principal: dos columnas -->
+    <section class="cv-body">
+      <section class="main-col">
+        <h2 class="section-title">Experiencia y proyectos</h2>
+        <article class="job">
+          <h3>Desarrollador Junior | Proyecto Académico</h3>
+          <p class="date">Febrero de 2024 – Presente</p>
+          <ul>
+            <li>Desarrollo de aplicaciones web utilizando HTML, CSS y JavaScript.</li>
+            <li>Diseño de interfaces responsivas y accesibles para distintos dispositivos.</li>
+            <li>Trabajo en equipo con metodologías ágiles para entrega de proyectos universitarios.</li>
+          </ul>
+        </article>
+
+        <h2 class="section-title">Historial académico</h2>
+        <article class="education">
+          <h3>Ingeniería de Software | Universidad de Cundinamarca</h3>
+          <p class="date">En curso</p>
+          <ul>
+            <li>Énfasis en desarrollo de software, bases de datos y estructuras de datos.</li>
+            <li>Participación en proyectos de programación y análisis de sistemas.</li>
+          </ul>
+        </article>
+      </section>
+
+      <aside class="side-col">
+        <div class="card">
+          <h3>Habilidades relevantes</h3>
+          <ul class="skills">
+            <li>HTML, CSS y JavaScript</li>
+            <li>Python</li>
+            <li>Git y GitHub</li>
+            <li>Bases de datos SQL</li>
+            <li>Trabajo en equipo</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Proyectos y actividades</h3>
+          <p>Desarrollo de una página web personal con diseño responsive.</p>
+          <p>Creación de una aplicación básica de gestión académica en equipo.</p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+<!-- Al final del body, antes de </body> -->
+<script src="js/index.js"></script>
+</body>
+</html>
